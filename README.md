@@ -11,6 +11,7 @@ As a group, we are building an improved web application for communicating news, 
 ![Screenshot 2022-10-19 at 10 44 19](https://user-images.githubusercontent.com/89795037/196740068-da2fdadd-7fbf-408f-809f-cbbece44da86.png)
 ![Screenshot 2022-10-19 at 10 48 00](https://user-images.githubusercontent.com/89795037/196741000-21cd8e4e-8343-4f42-ae67-eaa73e058491.png)
 ![Screenshot 2022-10-19 at 10 48 24](https://user-images.githubusercontent.com/89795037/196741094-6f0935d1-5ee8-40cf-ac6d-50d16efebe9f.png)
+![Screenshot 2022-10-19 at 10 50 14](https://user-images.githubusercontent.com/89795037/196741555-1f23f9c1-ac74-4691-9df5-96d34bab6b1e.png)
 
 
 This project was developed with the following technologies:
