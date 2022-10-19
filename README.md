@@ -20,6 +20,9 @@ $ git clone https://github.com/Candide23/Parks-N-Rec-Candide.git
 
 # Go into the repository
 $ cd Parks-N-Rec-Candide
+$ cd src
+$ cd main
+$ cd ui
 
 # Install dependencies
 $ npm install
