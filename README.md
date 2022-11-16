@@ -18,10 +18,15 @@ This project was developed with the following technologies:
 
 
 Javascript
+
 Java
-React
+
+ReactJs
+
 Bootstrap
+
 MySQL
+
 Spring Boot
 
 📘 How To Use
@@ -29,17 +34,23 @@ Spring Boot
 # Clone this repository
 $ git clone https://github.com/Candide23/Parks-N-Rec-Candide.git
 
-# Go into the repository
-# $ cd Parks-N-Rec-Candide
-# $ cd src
-# $ cd main
-# $ cd ui
+ Go into the repository
+ 
+$ cd Parks-N-Rec-Candide
+
+$ cd src
+
+$ cd main
+
+$ cd ui
 
 # Install dependencies
+
 $ npm install
 
 
 # Start the application
+
 $ npm start
 
 
