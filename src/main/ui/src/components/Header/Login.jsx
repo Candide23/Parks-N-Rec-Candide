@@ -18,28 +18,28 @@ export default function Login() {
 		setUserInput({ ...userInput, [e.target.name]: e.target.value });
 	};
 
-	const handleSubmit = (e) => {
-		e.preventDefault();
-		fetch("http://localhost:8080/login/hi", {
-			method: "POST",
-			headers: { "Content-Type": "application/json" },
-			body: JSON.stringify(userInput),
-		})
-			.then((res) => res.json())
-			.then((res) => {
+const handleSubmit = (e) => {
+	e.preventDefault();
+	fetch("http://parksomewhere.us-east-1.elasticbeanstalk.com/login/hi", {
+		method: "POST",
+		headers: { "Content-Type": "application/json" },
+		body: JSON.stringify(userInput),
+	})
+		.then((res) => res.json())
+		.then((res) => {
 			console.log(res);
 			setUser(res);
-				if (res.email === null) {
-                  console.log("Email or password incorrect.");
-                    setFormErrors("Email or password incorrect.");
-                    setAlertShow(true);
-               } else {
-            	console.log("User signed in");
-                	setIsLoggedIn(true);
-                	handleClose();
-               }
+			if (!res.email || res.email === null) {
+				console.log("Email or password incorrect.");
+				setFormErrors("Email or password incorrect.");
+				setAlertShow(true);
+			} else {
+				console.log("User signed in");
+				setIsLoggedIn(true);
+				handleClose();
+			}
 		});
-	};
+};
 
 
 	const handleClose = () => setShow(false);

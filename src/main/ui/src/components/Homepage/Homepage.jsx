@@ -4,6 +4,7 @@ import FeaturedParksCards from './FeaturedParks';
 import HeroImageAndSearch from './HeroImageAndSearch';
 import ParkNews from './ParkNews';
 import ViewByState from './ViewByState';
+import Login from '../Header/Login'
 
 export default function Homepage() {
   return (
