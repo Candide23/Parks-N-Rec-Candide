@@ -41,7 +41,7 @@ export default function Register() {
 		if (isValid) {
 			const login = { password, email };
 			console.log(login);
-			fetch("http://parksomewhere.us-east-1.elasticbeanstalk.com/register/add", {
+			fetch("http://parksomewhere.us-east-2.elasticbeanstalk.com/register/add", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify(login),

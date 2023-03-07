@@ -20,7 +20,7 @@ export default function Login() {
 
 const handleSubmit = (e) => {
 	e.preventDefault();
-	fetch("http://parksomewhere.us-east-1.elasticbeanstalk.com/login/hi", {
+	fetch("http://parksomewhere.us-east-2.elasticbeanstalk.com/login/hi", {
 		method: "POST",
 		headers: { "Content-Type": "application/json" },
 		body: JSON.stringify(userInput),

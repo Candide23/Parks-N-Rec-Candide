@@ -30,11 +30,6 @@ export const Header = () => {
 				<Navbar.Toggle aria-controls="navbar" />
 				<Navbar.Collapse id="navbar">
 				</Navbar.Collapse>
-                <div style={{ display: "block", height: 49 }}>
-						<Button href="about" variant="primary" >
-							About
-						</Button>&nbsp;&nbsp;&nbsp;
-					</div>
 					<Login />
 
 			</Container>
