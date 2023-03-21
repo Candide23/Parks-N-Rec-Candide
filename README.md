@@ -3,6 +3,7 @@
 As a group, we are building an improved web application for communicating news, alerts, and accessibility information about National Parks, which we intend to be used as a template for State parks. We found that park websites display inconsistent information and can make it difficult to find details on park accessibility, which can discourage disabled people from planning visits. Our project makes it easy to find information and can be adapted by states to display their state park information consistently across all parks. 
 
 My role was to create  a React component named SearchByName which allows the user to search for national parks in the United States. The component fetches data from the National Park Service (NPS) REST API using a specific API key and stores it in the data state variable. The user`s input for park name search is stored in the searchTerm state variable. Whenever the user types in the search bar, the handleSearch function is called, which updates the searchTerm state with the user input. The data array is then filtered using the filterParkNames function, and each item is mapped to a Card component from the react-bootstrap library. Finally, the component returns a div element containing the search bar and the list of national parks returned by the API after filtering by search term.
+
 🚀 Technologies
 ![Screenshot 2022-10-19 at 10 42 29](https://user-images.githubusercontent.com/89795037/196739609-783939b6-9dac-4386-a817-963088a853c3.png)
 
